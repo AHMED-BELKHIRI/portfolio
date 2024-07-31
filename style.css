@@ -90,9 +90,9 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 100%;
+	width: 90%;
 	height: 100%;
-	max-width: 1300px;
+	/* max-width: 1300px; */
 	padding: 0 10px;
 }
 #header .nav-list ul {
@@ -333,9 +333,13 @@ p {
 }
 
 #services .service-item h1 {
-	font-size: 2rem;
-	color: black;
-	margin-bottom: 15px;
+	position: absolute;
+    bottom: 0;
+    right: 0;    
+	font-size: 1.7rem;
+	color: rgb(194, 182, 182);
+	margin-bottom: 1.5vh;
+	margin-right: 1.5vw;
 	text-transform: uppercase;
 }
 #services .service-item p {
@@ -347,7 +351,7 @@ p {
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
-	max-width: 80vw;
+	max-width: 85vw;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -365,7 +369,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 80%;
+	width: 80vw;
 	margin: 20px auto;
 	overflow: hidden;
 	border-radius: 10px;
@@ -384,6 +388,22 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+}
+
+
+#projects .project-info h3 {
+	margin-top: 1vh;
+	font-size: 1.7rem;
+	font-weight: 500;
+	color: rgb(194, 182, 182);
+	margin-bottom: 1.5vh;
+	margin-right: 1.5vw;
+
+    bottom: 0;
+	text-transform: uppercase; 
+	/* position: absolute; */
+    right: 0;   
+	
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -471,6 +491,27 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: rgb(194, 182, 182);
+	font-weight: 500;
+	margin-bottom: 1.5vh;
+	margin-right: 1.5vw;
+	bottom: 0;
+	text-transform: uppercase; 
+	margin-top: 1vh;
+	right: 0;    
+}
+#achievements .achievements-info h3 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+	color: rgb(194, 182, 182);
+	font-weight: 500;
+	margin-bottom: 1.5vh;
+	margin-right: 1.5vw;
+	bottom: 0;
+	text-transform: uppercase; 
+	margin-top: 1vh;
+	right: 0;    
 }
 #achievements .achievements-info p {
 	color: white;
@@ -479,6 +520,7 @@ p {
 	max-height: 60vh;
 	flex-basis: 50%;
 	height: 300px;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
@@ -680,6 +722,11 @@ p {
 /* Media Query For Tablet */
 @media only screen and (min-width: 200px) and (max-width: 1199px) {
 	#services .service-item {
+		/* height: 80vh; */
+		min-width: 80vw;
+	}
+
+	#project .project-item {
 		/* height: 80vh; */
 		min-width: 80vw;
 	}
