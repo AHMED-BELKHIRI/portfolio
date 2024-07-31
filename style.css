@@ -336,8 +336,8 @@ p {
 	position: absolute;
 	bottom: 0;
 	right: 0;    
-	font-size: 2rem;
-	color: rgb(194, 182, 182);
+	font-size: 1.7rem;
+	color: #C2B6B6;
 	margin-bottom: 1.5vh;
 	margin-right: 1.5vw;
 	text-transform: uppercase;
@@ -395,7 +395,7 @@ p {
 	margin-top: 1vh;
 	font-size: 1.7rem;
 	font-weight: 500;
-	color: rgb(194, 182, 182);
+	color: #C2B6B6;
 	margin-bottom: 1.5vh;
 	margin-right: 1.5vw;
 
@@ -491,7 +491,7 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
-	color: rgb(194, 182, 182);
+	color: #C2B6B6;
 	font-weight: 500;
 	margin-bottom: 1.5vh;
 	margin-right: 1.5vw;
@@ -504,7 +504,7 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
-	color: rgb(194, 182, 182);
+	color: #C2B6B6;
 	font-weight: 500;
 	margin-bottom: 1.5vh;
 	margin-right: 1.5vw;
