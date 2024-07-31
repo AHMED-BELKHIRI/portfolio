@@ -334,8 +334,8 @@ p {
 
 #services .service-item h1 {
 	position: absolute;
-    bottom: 0;
-    right: 0;    
+	bottom: 0;
+	right: 0;    
 	font-size: 2rem;
 	color: rgb(194, 182, 182);
 	margin-bottom: 1.5vh;
