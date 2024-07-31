@@ -337,7 +337,7 @@ p {
 	bottom: 0;
 	right: 0;    
 	font-size: 2rem;
-	color: rgb(194, 182, 182);
+	/* color: rgb(194, 182, 182); */
 	margin-bottom: 1.5vh;
 	margin-right: 1.5vw;
 	text-transform: uppercase;
