@@ -26,5 +26,5 @@ menu_item.forEach((item) => {
 
 
 function openInNewWindow() {
-	window.open('ahmed_resume_with_picture_updated.pdf', '_blank');
+	window.open('ahmed_resume.pdf', '_blank');
 }
